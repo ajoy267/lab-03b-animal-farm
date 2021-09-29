@@ -1,0 +1,17 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.animals img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 15%;
+    padding: 15px;
+    cursor: pointer;
+}
