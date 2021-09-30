@@ -2,16 +2,54 @@
     font-family: 'Mulish', sans-serif;
 }
 
+body{
+    background-color: #89c2d9;
+}
+
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 3rem;
+    color: #e2eafc;
+}
+
+.animals {
+    display: flex;
+    justify-content: center;
+}
+
 .animals img{
     width: 30vw;
     height: 30vw;
+    border: solid 3px black;
     border-radius: 15%;
-    padding: 15px;
+    margin: 15px;
     cursor: pointer;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #e2eafc;
+}
+
+.farm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.farm img {
+    height: 40vw;
+    width: 90vw;
+    border-radius: 3%;
 }
