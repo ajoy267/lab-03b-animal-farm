@@ -40,6 +40,8 @@ p {
     font-family: cursive;
     font-size: 2rem;
     color: #e2eafc;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .farm {

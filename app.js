@@ -9,23 +9,35 @@ const horseSound = document.getElementById('horse-audio');
 // set event listeners 
 horseImg.addEventListener('click', ()=>{
     horseSound.play();
+    horseImg.style.transform = 'rotate(360deg)';
+    horseImg.style.transition = '2s ease';
 });
 
 catImg.addEventListener('click', ()=>{
     catSound.play();
+    catImg.style.transform = 'rotate(360deg)';
+    catImg.style.transition = '2s ease';
 });
 
 dogImg.addEventListener('click', ()=>{
     dogSound.play();
+    dogImg.style.transform = 'rotate(360deg)';
+    dogImg.style.transition = '2s ease';
 });
 
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', (event)=> {
     if (event.key === 'h'){
         horseSound.play();
+        horseImg.style.transform = 'rotate(360deg)';
+        horseImg.style.transition = '2s ease';
     } if (event.key === 'c'){
         catSound.play();
+        catImg.style.transform = 'rotate(360deg)';
+        catImg.style.transition = '2s ease';
     } if (event.key === 'd'){
         dogSound.play();
+        dogImg.style.transform = 'rotate(360deg)';
+        dogImg.style.transition = '2s ease';
     }
 });
   // get user input
